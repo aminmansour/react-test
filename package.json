@@ -1,0 +1,45 @@
+{
+  "name": "frontend-test",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@reach/router": "^1.2.1",
+    "bootstrap": "^4.3.1",
+    "chart.js": "^2.9.3",
+    "jquery": "^3.4.1",
+    "popper": "^1.0.1",
+    "react": "^16.11.0",
+    "react-chartjs-2": "^2.8.0",
+    "react-dom": "^16.11.0",
+    "react-minimal-pie-chart": "^5.0.2",
+    "react-redux": "^7.1.1",
+    "react-scripts": "3.2.0",
+    "redux": "^4.0.4",
+    "redux-thunk": "^2.3.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "format": "prettier --write \"src/**/*.{js,jsx,ts,tsx}\"",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "prettier": "^1.19.1"
+  }
+}
